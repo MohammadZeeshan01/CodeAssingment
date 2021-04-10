@@ -1,0 +1,66 @@
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+
+}
+#contact-box form{
+    width: 40%;
+    
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+
+}
+
+#uqualification{
+    /* margin-left: 50%; */
+    width: 100%;
+    padding: .5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+
+}
+
+
+/* button */
+.center{
+    text-align: center;
+}
+
+.btn1{
+    font-family: 'Bree Serif', serif;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(126, 122, 122);
+    color: black;
+    margin: 17px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
